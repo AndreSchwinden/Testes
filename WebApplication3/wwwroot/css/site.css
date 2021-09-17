@@ -24,6 +24,16 @@ a {
   border-color: #1861ac;
 }
 
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #6495ED;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -68,4 +78,38 @@ body {
   width: 100%;
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
+}
+
+.form-center {
+    width: 200px;
+}
+
+.login-menu {
+    display: flex;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    background: #fff;
+}
+
+.input-menu{
+    width: 100%;
+    margin-bottom: 10px;
+    flex-direction: row;
+    border-radius: 5px;
+}
+
+.btn-login{
+    border-radius: 5px;
+    margin-top: 10px;
+    flex-direction: row;
+    width: 100%;
+}
+
+.login-title{
+    margin-bottom: 15%;
 }
